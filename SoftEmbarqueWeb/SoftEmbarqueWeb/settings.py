@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-pg*-p9y_(^i!dnx_-vl1v79@1g4ynna$2%$0(##sfk#!iuctlo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS =['51.91.29.97']
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_WHITELIST = (
+    'http://51.91.29.97:8082',
+)
 
 # Application definition
 
@@ -75,9 +78,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'SoftEmbarque_db',
+        'CLIENT': {
+            'host' : '127.0.0.1',
+            'port' : 27017,
+        }
     }
 }
-
 
 
 # Password validation
