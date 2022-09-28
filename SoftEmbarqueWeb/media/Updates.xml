@@ -1,0 +1,22 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.leyfa.softembarque</Name>
+  <DisplayName>SoftEmbarque</DisplayName>
+  <Description>Installateur du logiciel embarque Lynx/LynxPlus</Description>
+  <Version>2.0.0</Version>
+  <ReleaseDate>2022-08-30</ReleaseDate>
+  <Default>true</Default>
+  <Script>installscript.qs</Script>
+  <UpdateFile CompressedSize="70058291" OS="Any" UncompressedSize="264708134"/>
+  <DownloadableArchives>base_library.zip,certifi.7z,kiwisolver.7z,matplotlib.7z,numpy.7z,pandas.7z,PIL.7z,pip-22.1.2.dist-info.7z,psutil.7z,pyproj.7z,pyqtgraph.7z,PySide2.7z,pytz.7z,scipy.7z,setuptools-47.1.0.dist-info.7z,shapely.7z,Shapely.libs.7z,shiboken2.7z,wheel-0.37.1.dist-info.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license.txt" name="Leyfa Measurement License Agreement"/>
+  </Licenses>
+  <SHA1>a6a172b14879ab52cac52271f66752f3c1507c72</SHA1>
+ </PackageUpdate>
+ <SHA1>2898e35af760188495652bd5b93be9d7720264ae</SHA1>
+ <MetadataName>2022-09-19-1459_meta.7z</MetadataName>
+</Updates>
